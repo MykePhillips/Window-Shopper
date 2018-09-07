@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4CE488213D85EE00759238 /* CurrencyTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4CE487213D85EE00759238 /* CurrencyTextfield.swift */; };
 		BEBE4F53213A76B900D5153F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE4F52213A76B900D5153F /* AppDelegate.swift */; };
-		BEBE4F55213A76B900D5153F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE4F54213A76B900D5153F /* ViewController.swift */; };
+		BEBE4F55213A76B900D5153F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE4F54213A76B900D5153F /* MainVC.swift */; };
 		BEBE4F58213A76B900D5153F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE4F56213A76B900D5153F /* Main.storyboard */; };
 		BEBE4F5A213A76C100D5153F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBE4F59213A76C100D5153F /* Assets.xcassets */; };
 		BEBE4F5D213A76C100D5153F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE4F5B213A76C100D5153F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE4CE487213D85EE00759238 /* CurrencyTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextfield.swift; sourceTree = "<group>"; };
 		BEBE4F4F213A76B900D5153F /* Widow Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Widow Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE4F52213A76B900D5153F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEBE4F54213A76B900D5153F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEBE4F54213A76B900D5153F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		BEBE4F57213A76B900D5153F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEBE4F59213A76C100D5153F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBE4F5C213A76C100D5153F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE4CE484213D7FD800759238 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE4F54213A76B900D5153F /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE4CE485213D7FF100759238 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE4F56213A76B900D5153F /* Main.storyboard */,
+				BE4CE487213D85EE00759238 /* CurrencyTextfield.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE4CE486213D7FF900759238 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BEBE4F46213A76B900D5153F = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +80,10 @@
 		BEBE4F51213A76B900D5153F /* Widow Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				BE4CE486213D7FF900759238 /* Model */,
+				BE4CE485213D7FF100759238 /* View */,
+				BE4CE484213D7FD800759238 /* Controller */,
 				BEBE4F52213A76B900D5153F /* AppDelegate.swift */,
-				BEBE4F54213A76B900D5153F /* ViewController.swift */,
-				BEBE4F56213A76B900D5153F /* Main.storyboard */,
 				BEBE4F59213A76C100D5153F /* Assets.xcassets */,
 				BEBE4F5B213A76C100D5153F /* LaunchScreen.storyboard */,
 				BEBE4F5E213A76C100D5153F /* Info.plist */,
@@ -135,7 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEBE4F55213A76B900D5153F /* ViewController.swift in Sources */,
+				BE4CE488213D85EE00759238 /* CurrencyTextfield.swift in Sources */,
+				BEBE4F55213A76B900D5153F /* MainVC.swift in Sources */,
 				BEBE4F53213A76B900D5153F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
